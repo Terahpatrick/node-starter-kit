@@ -1,0 +1,7 @@
+{
+  "watch": ["src", "../../libraries/iso-common/.cleanBuildMarker"],
+  "ext": "js,ts,json",
+  "ignore": ["src/**/*.{spec,test}.ts"],
+  "ignoreRoot": [".git", "lib"],
+  "exec": "yarn build:dev"
+}

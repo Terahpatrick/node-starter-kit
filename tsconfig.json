@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src",
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "lib",
+    "strict": true,
+    "isolatedModules": true,
+    "target": "es2021",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUncheckedIndexedAccess": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "incremental": true,
+  },
+}
