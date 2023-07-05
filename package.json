@@ -6,7 +6,6 @@
   "author": "Patrick Mwangi (Terah)",
   "license": "MIT",
   "packageManager": "yarn@3.6.1",
-  "bin": "./bin/cli.js",
   "scripts": {
     "build": "yarn tsc -project tsconfig.prod.json && yarn build:flagCompleted",
     "build:dev": "yarn tsc --build && yarn build:flagCompleted",
