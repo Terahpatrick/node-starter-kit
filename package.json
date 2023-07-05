@@ -13,6 +13,8 @@
     "build:flagCompleted": "touch .cleanBuildMarker",
     "clean": "rimraf lib",
     "dev": "cross-env NODE_PATH=./ NODE_ENV=development nodemon",
+    "start:dev": "ts-node src/index.ts",
+    "start": "node lib/index.js",
     "format": "prettier -w 'src/**/*.ts'",
     "format:check": "prettier -c 'src/**/*.ts'",
     "format:pkg": "format-package -w",
