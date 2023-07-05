@@ -45,24 +45,13 @@
     "import/order": [
       "error",
       {
-        "pathGroups": [
-          {
-            "group": "external",
-            "position": "after"
-          },
-          {
-            "pattern": "@/**",
-            "group": "parent",
-            "position": "before"
-          }
-        ]
+        "pathGroups": []
       }
     ],
     "no-restricted-imports": [
       "error",
       {
-        "patterns": [
-        ]
+        "patterns": []
       }
     ]
   },
